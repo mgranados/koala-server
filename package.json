@@ -1,0 +1,8 @@
+{
+  "name": "koala-server",
+  "version": "1.0.0",
+  "description": "Koa basic Server to expose a REST API with security as throttling and performant.",
+  "main": "server.js",
+  "author": "Martin Granados",
+  "license": "MIT"
+}
