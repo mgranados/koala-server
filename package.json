@@ -6,7 +6,7 @@
   "author": "Martin Granados",
   "license": "MIT",
   "scripts": {
-    "lint": "pretty-quick && eslint --ignore-path .gitignore .",
+    "lint": "eslint --ignore-path .gitignore .",
     "dev": "nodemon server.js --exec 'yarn run lint && node'"
   },
   "husky": {
