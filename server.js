@@ -3,6 +3,7 @@ const bodyParser = require('koa-bodyparser');
 const compress = require('koa-compress');
 const responseTime = require('koa-response-time');
 const logger = require('koa-logger');
+require('dotenv').config();
 
 const app = new Koa();
 app.use(bodyParser());
