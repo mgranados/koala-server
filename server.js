@@ -1,8 +1,9 @@
-function () {
+const Koa = require('koa');
 
+const app = new Koa();
 
+app.use(async (ctx) => {
+  ctx.body = 'Sweet baby Jesus';
+});
 
-
-
-  console.log('hola ')
-}
+app.listen(3000);

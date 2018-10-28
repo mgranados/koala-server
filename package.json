@@ -6,7 +6,8 @@
   "author": "Martin Granados",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "dev": "nodemon server.js --exec 'yarn run lint && node'"
   },
   "husky": {
     "installType": "overwrite",
@@ -19,9 +20,13 @@
   },
   "devDependencies": {
     "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
     "husky": "^1.1.2",
+    "nodemon": "^1.18.5",
     "prettier": "1.14.3",
     "pretty-quick": "^1.8.0"
   }
